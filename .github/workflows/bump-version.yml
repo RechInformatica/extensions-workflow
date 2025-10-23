@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Bump version
         run: |
           git config user.name "github-actions[bot]"
